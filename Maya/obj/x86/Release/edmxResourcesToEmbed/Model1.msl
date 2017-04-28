@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="mayaModelStoreContainer" CdmEntityContainer="mayaEntities">
+    <EntitySetMapping Name="bitacora">
+      <EntityTypeMapping TypeName="mayaModel.bitacora">
+        <MappingFragment StoreEntitySet="bitacora">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="gastos">
+      <EntityTypeMapping TypeName="mayaModel.gastos">
+        <MappingFragment StoreEntitySet="gastos">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="valor" ColumnName="valor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="materia_prima">
+      <EntityTypeMapping TypeName="mayaModel.materia_prima">
+        <MappingFragment StoreEntitySet="materia_prima">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mp_tejedora">
+      <EntityTypeMapping TypeName="mayaModel.mp_tejedora">
+        <MappingFragment StoreEntitySet="mp_tejedora">
+          <ScalarProperty Name="id_mp" ColumnName="id_mp" />
+          <ScalarProperty Name="id_tejedora" ColumnName="id_tejedora" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="fehca" ColumnName="fehca" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="productos">
+      <EntityTypeMapping TypeName="mayaModel.productos">
+        <MappingFragment StoreEntitySet="productos">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_tipo_producto" ColumnName="id_tipo_producto" />
+          <ScalarProperty Name="anno" ColumnName="anno" />
+          <ScalarProperty Name="id_tejedora" ColumnName="id_tejedora" />
+          <ScalarProperty Name="numero_producto" ColumnName="numero_producto" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="valor" ColumnName="valor" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+          <ScalarProperty Name="fecha_entrada" ColumnName="fecha_entrada" />
+          <ScalarProperty Name="fecha_salida" ColumnName="fecha_salida" />
+          <ScalarProperty Name="fecha_devolucion" ColumnName="fecha_devolucion" />
+          <ScalarProperty Name="fecha_venta" ColumnName="fecha_venta" />
+          <ScalarProperty Name="id_punto_venta" ColumnName="id_punto_venta" />
+          <ScalarProperty Name="vendido" ColumnName="vendido" />
+          <ScalarProperty Name="tejedora_anterior" ColumnName="tejedora_anterior" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="punto_venta">
+      <EntityTypeMapping TypeName="mayaModel.punto_venta">
+        <MappingFragment StoreEntitySet="punto_venta">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="valor" ColumnName="valor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="rol">
+      <EntityTypeMapping TypeName="mayaModel.rol">
+        <MappingFragment StoreEntitySet="rol">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="valor" ColumnName="valor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tejedora">
+      <EntityTypeMapping TypeName="mayaModel.tejedora">
+        <MappingFragment StoreEntitySet="tejedora">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellidos" ColumnName="apellidos" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tipo_producto">
+      <EntityTypeMapping TypeName="mayaModel.tipo_producto">
+        <MappingFragment StoreEntitySet="tipo_producto">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="valor" ColumnName="valor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usuarios">
+      <EntityTypeMapping TypeName="mayaModel.usuarios">
+        <MappingFragment StoreEntitySet="usuarios">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellidos" ColumnName="apellidos" />
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
+          <ScalarProperty Name="pass" ColumnName="pass" />
+          <ScalarProperty Name="id_rol" ColumnName="id_rol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

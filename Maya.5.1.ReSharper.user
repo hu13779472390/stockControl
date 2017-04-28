@@ -1,0 +1,823 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:GestionarUsuarios.Designer.cs" caret="14696" fromTop="16" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:GestionarTiposProductos.Designer.cs" caret="9722" fromTop="1" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:GestionarPuntoVenta.cs" caret="1027" fromTop="11" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:FormularioPrincipal.Designer.cs" caret="28639" fromTop="15" />
+      <File id="00ACC77D-1901-4C7A-BB8F-8D0F364A58F3/f:PrintableListView.cs" caret="2075" fromTop="4" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/f:Form1.cs" caret="688" fromTop="10" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:GestionarTiposProductos.cs" caret="9891" fromTop="11" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:GestionarUsuarios.cs" caret="509" fromTop="18" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:ReporteBitacora.cs" caret="769" fromTop="0" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:AsignarMPaTejedora.cs" caret="1382" fromTop="20" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/f:Program.cs" caret="317" fromTop="10" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:ChequearAsignaciones.cs" caret="1139" fromTop="0" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:ChequearGastos.cs" caret="401" fromTop="0" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:EliminarProductos.cs" caret="2652" fromTop="0" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:EntradaProductos.cs" caret="1820" fromTop="0" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:GestionarTejedoras.cs" caret="530" fromTop="0" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:IngresarGastos.cs" caret="445" fromTop="0" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:InventarioXDIa.cs" caret="3630" fromTop="0" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:ListadoProductosInventario.cs" caret="1708" fromTop="0" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:MateriasPrimas.cs" caret="536" fromTop="0" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:ProductosMasVendidos.cs" caret="505" fromTop="0" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:PV_EntradaProductos.cs" caret="587" fromTop="0" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:PVListadoProductos.cs" caret="2556" fromTop="0" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:PVSalidaProductos.cs" caret="9500" fromTop="0" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:Utilidad.cs" caret="597" fromTop="0" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:FormularioPrincipal.cs" caret="13949" fromTop="1" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:VentaPorDias.cs" caret="13744" fromTop="8" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:EliminarProductos.cs" caret="2685" fromTop="11" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:FormularioPrincipal.cs" caret="8464" fromTop="18" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:FormularioPrincipal.cs" caret="12443" fromTop="19" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:FormularioPrincipal.cs" caret="16273" fromTop="24" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:FormularioPrincipal.cs" caret="19222" fromTop="23" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:FormularioPrincipal.cs" caret="21600" fromTop="19" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:FormularioPrincipal.cs" caret="23970" fromTop="24" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:FormularioPrincipal.cs" caret="26345" fromTop="20" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:FormularioPrincipal.cs" caret="17933" fromTop="10" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:FormularioPrincipal.cs" caret="14089" fromTop="10" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:ChequearAsignaciones.cs" caret="1119" fromTop="16" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:EntradaProductos.cs" caret="1818" fromTop="24" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:InventarioXDIa.cs" caret="1606" fromTop="9" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:ListadoProductosInventario.cs" caret="1855" fromTop="25" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:PVListadoProductos.cs" caret="1906" fromTop="18" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:PVListadoProductos.cs" caret="2387" fromTop="20" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:PVSalidaProductos.cs" caret="2347" fromTop="22" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:PVSalidaProductos.cs" caret="3017" fromTop="20" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:PVSalidaProductos.cs" caret="4656" fromTop="12" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:PVSalidaProductos.cs" caret="6378" fromTop="22" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:PVSalidaProductos.cs" caret="7421" fromTop="24" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:PVSalidaProductos.cs" caret="8458" fromTop="23" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:PVSalidaProductos.cs" caret="9500" fromTop="25" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:VentaPorDias.cs" caret="2830" fromTop="26" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:VentaPorDias.cs" caret="1017" fromTop="18" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:VentaPorDias.cs" caret="5556" fromTop="23" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:VentaPorDias.cs" caret="8297" fromTop="23" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:VentaPorDias.cs" caret="11038" fromTop="21" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:VentaPorDias.cs" caret="13882" fromTop="23" />
+      <File id="C518AF9F-B5E4-4CCD-9E09-BC1904E11560/d:formularios/f:VentaPorDias.cs" caret="16739" fromTop="25" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="this" priority="113" />
+      <Item value="try" priority="40" />
+      <Item value="using" priority="2" />
+      <Item value="mayaEntities`0" priority="25" />
+      <Item value="usuarios`0" priority="34" />
+      <Item value="entities" priority="4" />
+      <Item value="u" priority="11" />
+      <Item value="textBox1" priority="1" />
+      <Item value="textBox2" priority="0" />
+      <Item value="if" priority="106" />
+      <Item value="loguin_user" priority="4" />
+      <Item value="null" priority="36" />
+      <Item value="new" priority="179" />
+      <Item value="bitacora" priority="25" />
+      <Item value="fecha" priority="35" />
+      <Item value="DateTime`0" priority="45" />
+      <Item value="id_usuario" priority="28" />
+      <Item value="descripcion" priority="34" />
+      <Item value="Maya" priority="4" />
+      <Item value="formularios" priority="0" />
+      <Item value="FormularioPrincipal`0" priority="0" />
+      <Item value="FormularioPrincipal" priority="0" />
+      <Item value="fp" priority="0" />
+      <Item value="else" priority="37" />
+      <Item value="MessageBox`0" priority="39" />
+      <Item value="OK" priority="25" />
+      <Item value="Error" priority="15" />
+      <Item value="e" priority="26" />
+      <Item value="private" priority="102" />
+      <Item value="List" priority="34" />
+      <Item value="_idrol" priority="10" />
+      <Item value="List&lt;int&gt;" priority="38" />
+      <Item value="foreach" priority="55" />
+      <Item value="_entities" priority="178" />
+      <Item value="rolesListView" priority="4" />
+      <Item value="rol" priority="3" />
+      <Item value="int" priority="42" />
+      <Item value="_selectedindex" priority="15" />
+      <Item value="ListViewItem`0" priority="2" />
+      <Item value="selectedItem" priority="3" />
+      <Item value="true" priority="38" />
+      <Item value="OnFontChanged`0" priority="0" />
+      <Item value="printableListView1" priority="27" />
+      <Item value="false" priority="54" />
+      <Item value="_idUser" priority="6" />
+      <Item value="user" priority="32" />
+      <Item value="var" priority="37" />
+      <Item value="readonly" priority="31" />
+      <Item value="mayaEntities" priority="21" />
+      <Item value="EntityKey" priority="18" />
+      <Item value="tboxNombre" priority="6" />
+      <Item value="tboxApellidos" priority="5" />
+      <Item value="tboxUsuarios" priority="7" />
+      <Item value="tboxPass" priority="6" />
+      <Item value="tboxPass2" priority="4" />
+      <Item value="bool" priority="11" />
+      <Item value="for" priority="7" />
+      <Item value="existe" priority="0" />
+      <Item value="modificarButton" priority="6" />
+      <Item value="eliminarButton" priority="13" />
+      <Item value="public" priority="0" />
+      <Item value="void" priority="19" />
+      <Item value="item" priority="0" />
+      <Item value="reset" priority="0" />
+      <Item value="return" priority="26" />
+      <Item value="aceptar" priority="6" />
+      <Item value="cancelar" priority="3" />
+      <Item value="nuevo" priority="14" />
+      <Item value="nombre" priority="1" />
+      <Item value="apellidos" priority="1" />
+      <Item value="string" priority="28" />
+      <Item value="validation" priority="8" />
+      <Item value="ValidarDatos`0" priority="2" />
+      <Item value="validationMessage" priority="1" />
+      <Item value="Exclamation" priority="0" />
+      <Item value="usuario" priority="0" />
+      <Item value="pass" priority="0" />
+      <Item value="comboBox1" priority="20" />
+      <Item value="index_rol" priority="1" />
+      <Item value="id_rol" priority="0" />
+      <Item value="usuarios" priority="1" />
+      <Item value="YesNo" priority="3" />
+      <Item value="Question" priority="6" />
+      <Item value="Yes" priority="4" />
+      <Item value="tipo_p" priority="2" />
+      <Item value="_idTipo_producto" priority="4" />
+      <Item value="tbxTipoProducto" priority="12" />
+      <Item value="aceptarButton" priority="4" />
+      <Item value="cancelarButton" priority="4" />
+      <Item value="numericIdentificador" priority="10" />
+      <Item value="tp" priority="19" />
+      <Item value="tipo_producto" priority="1" />
+      <Item value="id" priority="5" />
+      <Item value="valor" priority="24" />
+      <Item value="_user" priority="34" />
+      <Item value="tipo_producto`0" priority="3" />
+      <Item value="_selectedIndex" priority="13" />
+      <Item value="p" priority="124" />
+      <Item value="aux" priority="64" />
+      <Item value="Information" priority="5" />
+      <Item value="_idTejedora" priority="35" />
+      <Item value="tbxNombre" priority="7" />
+      <Item value="tbxRegistro" priority="8" />
+      <Item value="tbxApellidos" priority="5" />
+      <Item value="ListViewItem" priority="13" />
+      <Item value="ListViewGroup" priority="12" />
+      <Item value="tejedora" priority="23" />
+      <Item value="message" priority="13" />
+      <Item value="t" priority="27" />
+      <Item value="num_tejedora" priority="0" />
+      <Item value="ValidarEntrada`0" priority="0" />
+      <Item value="messageValidation" priority="1" />
+      <Item value="MessageBoxIcon`0" priority="0" />
+      <Item value="tejedora`0" priority="8" />
+      <Item value="_idPuntoVenta" priority="34" />
+      <Item value="tbxPuntoVenta" priority="10" />
+      <Item value="pventa" priority="1" />
+      <Item value="punto_venta" priority="2" />
+      <Item value="punto_venta`0" priority="8" />
+      <Item value="pv" priority="18" />
+      <Item value="AutoCompleteMode`0" priority="0" />
+      <Item value="_idTipoProductos" priority="14" />
+      <Item value="cbTipoProducto" priority="16" />
+      <Item value="cbTejedora" priority="37" />
+      <Item value="numero_repetir" priority="2" />
+      <Item value="chboxAgregar" priority="1" />
+      <Item value="productos`0" priority="15" />
+      <Item value="productos" priority="2" />
+      <Item value="nValor" priority="5" />
+      <Item value="fecha_entrada" priority="8" />
+      <Item value="txIdentificador" priority="3" />
+      <Item value="tbDescripcion" priority="14" />
+      <Item value="ital" priority="0" />
+      <Item value="IFeatureSupport`0" priority="1" />
+      <Item value="numero" priority="2" />
+      <Item value="numero_producto" priority="1" />
+      <Item value="IDataAdapter`0" priority="0" />
+      <Item value="DateTimePickerFormat" priority="0" />
+      <Item value="tejedoraa" priority="0" />
+      <Item value="anno" priority="8" />
+      <Item value="aux_anno" priority="0" />
+      <Item value="pi" priority="0" />
+      <Item value="i" priority="11" />
+      <Item value="UserControl`0" priority="1" />
+      <Item value="_pv" priority="1" />
+      <Item value="id_punto_venta" priority="0" />
+      <Item value="idPuntoVenta" priority="1" />
+      <Item value="_idTejedoras" priority="5" />
+      <Item value="tboxAnno" priority="0" />
+      <Item value="cboxTejedora" priority="6" />
+      <Item value="tejedpra" priority="2" />
+      <Item value="cboxTipoProducto" priority="18" />
+      <Item value="dataGridView1" priority="27" />
+      <Item value="DataGridView" priority="0" />
+      <Item value="numericUpDown1" priority="5" />
+      <Item value="elem_seleccionado" priority="0" />
+      <Item value="rows" priority="0" />
+      <Item value="_idProductos" priority="16" />
+      <Item value="List&lt;string&gt;" priority="3" />
+      <Item value="decimal" priority="16" />
+      <Item value="String`0" priority="0" />
+      <Item value="_estados" priority="0" />
+      <Item value="pro" priority="27" />
+      <Item value="Math`0" priority="0" />
+      <Item value="identificador" priority="0" />
+      <Item value="const" priority="0" />
+      <Item value="continue" priority="15" />
+      <Item value="_cambiarUsuario" priority="1" />
+      <Item value="Form1`0" priority="0" />
+      <Item value="puntosDeVentaToolStripMenuItem" priority="0" />
+      <Item value="printableInventario" priority="2" />
+      <Item value="pr" priority="5" />
+      <Item value="NumericUpDown`0" priority="0" />
+      <Item value="tabControl" priority="6" />
+      <Item value="object" priority="2" />
+      <Item value="Control" priority="1" />
+      <Item value="TabPage`0" priority="0" />
+      <Item value="TabPage" priority="0" />
+      <Item value="nuevo_tab" priority="1" />
+      <Item value="PrintableListView" priority="2" />
+      <Item value="printableListView" priority="0" />
+      <Item value="Properties" priority="0" />
+      <Item value="ListView`0" priority="0" />
+      <Item value="ListView" priority="0" />
+      <Item value="ltvw" priority="9" />
+      <Item value="Fill" priority="0" />
+      <Item value="virtual" priority="0" />
+      <Item value="Details" priority="0" />
+      <Item value="ReporteBitacora`0" priority="0" />
+      <Item value="ReporteBitacora" priority="0" />
+      <Item value="rb" priority="0" />
+      <Item value="cbUsuario" priority="4" />
+      <Item value="us" priority="0" />
+      <Item value="_idUsuario" priority="3" />
+      <Item value="b" priority="2" />
+      <Item value="bi" priority="4" />
+      <Item value="bs" priority="0" />
+      <Item value="gastos" priority="2" />
+      <Item value="g" priority="7" />
+      <Item value="fecha_inicio" priority="24" />
+      <Item value="fecha_fin" priority="12" />
+      <Item value="IngresarGastos`0" priority="0" />
+      <Item value="IngresarGastos" priority="0" />
+      <Item value="ig" priority="0" />
+      <Item value="ChequearGastos`0" priority="0" />
+      <Item value="ChequearGastos" priority="0" />
+      <Item value="cg" priority="0" />
+      <Item value="f" priority="0" />
+      <Item value="x" priority="10" />
+      <Item value="XmlReadMode`0" priority="0" />
+      <Item value="InventarioXDIa`0" priority="0" />
+      <Item value="InventarioXDIa" priority="0" />
+      <Item value="ixd" priority="0" />
+      <Item value="components" priority="1" />
+      <Item value="cant_dias" priority="0" />
+      <Item value="Reload`0" priority="1" />
+      <Item value="DateTime" priority="0" />
+      <Item value="indice" priority="1" />
+      <Item value="cbPuntoVenta" priority="8" />
+      <Item value="VentaPorDias`0" priority="0" />
+      <Item value="VentaPorDias" priority="0" />
+      <Item value="vd" priority="0" />
+      <Item value="Position" priority="1" />
+      <Item value="total_valor" priority="1" />
+      <Item value="ventas" priority="1" />
+      <Item value="utilidadd" priority="1" />
+      <Item value="v" priority="3" />
+      <Item value="gas" priority="1" />
+      <Item value="Utilidad`0" priority="0" />
+      <Item value="Utilidad" priority="0" />
+      <Item value="NullReferenceException`0" priority="0" />
+      <Item value="prod" priority="0" />
+      <Item value="Enumerable`0" priority="2" />
+      <Item value="prr" priority="4" />
+      <Item value="ProductosMasVendidos`0" priority="0" />
+      <Item value="ProductosMasVendidos" priority="0" />
+      <Item value="pmv" priority="0" />
+      <Item value="cantidad" priority="5" />
+      <Item value="List&lt;productos&gt;" priority="1" />
+      <Item value="total" priority="1" />
+      <Item value="fechaSalida" priority="1" />
+      <Item value="estado" priority="0" />
+      <Item value="ResetCombox`0" priority="0" />
+      <Item value="_idTipoProducto" priority="16" />
+      <Item value="tipoProducto" priority="5" />
+      <Item value="lbIdentificador" priority="6" />
+      <Item value="te" priority="1" />
+      <Item value="EliminarProductos`0" priority="0" />
+      <Item value="EliminarProductos" priority="0" />
+      <Item value="ep" priority="0" />
+      <Item value="product" priority="5" />
+      <Item value="el" priority="0" />
+      <Item value="break" priority="2" />
+      <Item value="producto" priority="6" />
+      <Item value="OKCancel" priority="1" />
+      <Item value="Cancel" priority="0" />
+      <Item value="lista_p" priority="0" />
+      <Item value="elemento" priority="23" />
+      <Item value="lista_auxiliar" priority="1" />
+      <Item value="productose" priority="0" />
+      <Item value="id_tejedora" priority="1" />
+      <Item value="id_tipo_producto" priority="0" />
+      <Item value="nCantidad" priority="15" />
+      <Item value="materia_prima" priority="0" />
+      <Item value="Nullable`0" priority="0" />
+      <Item value="System" priority="0" />
+      <Item value="Nullable" priority="0" />
+      <Item value="MateriasPrimas`0" priority="0" />
+      <Item value="MateriasPrimas" priority="0" />
+      <Item value="mp" priority="20" />
+      <Item value="Tejedora" priority="3" />
+      <Item value="AsignarMPaTejedora`0" priority="0" />
+      <Item value="AsignarMPaTejedora" priority="0" />
+      <Item value="amp" priority="0" />
+      <Item value="_idMateriasP" priority="2" />
+      <Item value="Type`0" priority="0" />
+      <Item value="pos_select" priority="3" />
+      <Item value="DataGridViewComboBoxColumn" priority="0" />
+      <Item value="char" priority="2" />
+      <Item value="List&lt;char&gt;" priority="0" />
+      <Item value="materia_prima`0" priority="4" />
+      <Item value="variable" priority="4" />
+      <Item value="mp_tejedora`0" priority="0" />
+      <Item value="mp_tejedora" priority="0" />
+      <Item value="id_mp" priority="0" />
+      <Item value="fehca" priority="0" />
+      <Item value="salir" priority="1" />
+      <Item value="_idMateriaP" priority="5" />
+      <Item value="matp" priority="1" />
+      <Item value="materia" priority="6" />
+      <Item value="mpt" priority="8" />
+      <Item value="m" priority="0" />
+      <Item value="aumentar" priority="3" />
+      <Item value="_aumentar" priority="3" />
+      <Item value="ChequearAsignaciones`0" priority="0" />
+      <Item value="ChequearAsignaciones" priority="0" />
+      <Item value="cha" priority="0" />
+      <Item value="while" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.Form1">
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.mayaEntities">
+      <Item value="usuarios" priority="4" />
+      <Item value="AddTobitacora`0" priority="25" />
+      <Item value="SaveChanges`0" priority="28" />
+      <Item value="rol" priority="0" />
+      <Item value="GetObjectByKey`0" priority="21" />
+      <Item value="AddTousuarios`0" priority="0" />
+      <Item value="DeleteObject`0" priority="9" />
+      <Item value="tipo_producto" priority="7" />
+      <Item value="AddTotipo_producto`0" priority="0" />
+      <Item value="productos" priority="29" />
+      <Item value="tejedora" priority="8" />
+      <Item value="AddTotejedora`0" priority="0" />
+      <Item value="punto_venta" priority="9" />
+      <Item value="AddTopunto_venta`0" priority="0" />
+      <Item value="AddToproductos`0" priority="1" />
+      <Item value="bitacora" priority="2" />
+      <Item value="AddTogastos`0" priority="0" />
+      <Item value="gastos" priority="1" />
+      <Item value="AddTomateria_prima`0" priority="0" />
+      <Item value="materia_prima" priority="1" />
+      <Item value="mp_tejedora" priority="2" />
+      <Item value="AddTomp_tejedora`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.ObjectSet`1">
+      <Item value="Where`0" priority="45" />
+      <Item value="Any`1" priority="8" />
+      <Item value="OrderBy`0" priority="1" />
+      <Item value="OrderByDescending`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.usuarios">
+      <Item value="usuario" priority="2" />
+      <Item value="pass" priority="3" />
+      <Item value="id" priority="33" />
+      <Item value="nombre" priority="29" />
+      <Item value="apellidos" priority="2" />
+      <Item value="rol" priority="1" />
+      <Item value="id_rol" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Equals`0" priority="21" />
+      <Item value="Trim`0" priority="6" />
+      <Item value="Count`1" priority="0" />
+      <Item value="Contains`0" priority="0" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="ToList`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="83" />
+      <Item value="ReadOnly" priority="6" />
+      <Item value="Enabled" priority="8" />
+      <Item value="Validated" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="SingleOrDefault`1" priority="0" />
+      <Item value="Any`1" priority="0" />
+      <Item value="Last`1" priority="1" />
+      <Item value="ToList`1" priority="3" />
+      <Item value="OrderBy`2" priority="1" />
+      <Item value="Single`1" priority="4" />
+      <Item value="OrderByDescending`2" priority="0" />
+      <Item value="Sum`1" priority="1" />
+      <Item value="GroupBy`4" priority="1" />
+      <Item value="Count`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="42" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.formularios.FormularioPrincipal">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="_user" priority="8" />
+      <Item value="UseWaitCursor" priority="3" />
+      <Item value="Close`0" priority="0" />
+      <Item value="Reload`0" priority="1" />
+      <Item value="ventaPorDiasToolStripMenuItem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="39" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.formularios.GestionarUsuarios">
+      <Item value="Reload`0" priority="2" />
+      <Item value="ResetComponents`0" priority="0" />
+      <Item value="AcceptButton" priority="0" />
+      <Item value="CancelButton" priority="0" />
+      <Item value="Close`0" priority="0" />
+      <Item value="_user" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListView">
+      <Item value="Items" priority="3" />
+      <Item value="Enabled" priority="0" />
+      <Item value="Dock" priority="0" />
+      <Item value="View" priority="0" />
+      <Item value="GridLines" priority="0" />
+      <Item value="Columns" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListView+ListViewItemCollection">
+      <Item value="Add`0" priority="14" />
+      <Item value="Clear`0" priority="10" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.rol">
+      <Item value="valor" priority="0" />
+      <Item value="id" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="48" />
+      <Item value="ElementAt`1" priority="2" />
+      <Item value="Count" priority="2" />
+      <Item value="Any`1" priority="0" />
+      <Item value="Where`1" priority="4" />
+      <Item value="FindIndex`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListViewItemSelectionChangedEventArgs">
+      <Item value="Item" priority="0" />
+      <Item value="ItemIndex" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListViewItem">
+      <Item value="Checked" priority="3" />
+      <Item value="Index" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PrintableListView.PrintableListView">
+      <Item value="Items" priority="25" />
+      <Item value="Print`0" priority="5" />
+      <Item value="PrintPreview`0" priority="5" />
+      <Item value="Title" priority="6" />
+      <Item value="Clear`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.DataClasses.EntityCollection`1">
+      <Item value="Any`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Button">
+      <Item value="Enabled" priority="17" />
+      <Item value="Visible" priority="18" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="10" />
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox">
+      <Item value="SelectedIndex" priority="70" />
+      <Item value="Items" priority="43" />
+      <Item value="Enabled" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox+ObjectCollection">
+      <Item value="Add`0" priority="32" />
+      <Item value="Clear`0" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Single`1" priority="2" />
+      <Item value="Count`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.formularios.GestionarTiposProductos">
+      <Item value="_user" priority="4" />
+      <Item value="Reload`0" priority="2" />
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.tipo_producto">
+      <Item value="valor" priority="17" />
+      <Item value="id" priority="13" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.NumericUpDown">
+      <Item value="ReadOnly" priority="1" />
+      <Item value="Enabled" priority="5" />
+      <Item value="Value" priority="46" />
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.productos">
+      <Item value="id_tipo_producto" priority="19" />
+      <Item value="tejedora" priority="23" />
+      <Item value="fecha_salida" priority="9" />
+      <Item value="punto_venta" priority="3" />
+      <Item value="valor" priority="11" />
+      <Item value="fecha_entrada" priority="16" />
+      <Item value="id_tejedora" priority="22" />
+      <Item value="numero_producto" priority="7" />
+      <Item value="anno" priority="6" />
+      <Item value="id" priority="29" />
+      <Item value="tipo_producto" priority="8" />
+      <Item value="id_punto_venta" priority="17" />
+      <Item value="descripcion" priority="10" />
+      <Item value="precio" priority="13" />
+      <Item value="vendido" priority="14" />
+      <Item value="fecha_venta" priority="12" />
+      <Item value="fecha_devolucion" priority="3" />
+      <Item value="tejedora_anterior" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.formularios.GestionarTejedoras">
+      <Item value="_user" priority="6" />
+      <Item value="Reload`0" priority="4" />
+      <Item value="Close`0" priority="0" />
+      <Item value="tbxRegistro" priority="0" />
+      <Item value="printableListView1" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.tejedora">
+      <Item value="id" priority="41" />
+      <Item value="nombre" priority="26" />
+      <Item value="apellidos" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBoxIcon">
+      <Item value="Error" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.formularios.GestionarPuntoVenta">
+      <Item value="_user" priority="2" />
+      <Item value="Close`0" priority="0" />
+      <Item value="Reload`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.punto_venta">
+      <Item value="valor" priority="14" />
+      <Item value="id" priority="12" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBoxButtons">
+      <Item value="YesNo" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.formularios.EntradaProductos">
+      <Item value="Reload`0" priority="1" />
+      <Item value="ValidarDatos`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.CheckBox">
+      <Item value="ChangeUICues" priority="0" />
+      <Item value="Checked" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DateTimePicker">
+      <Item value="Value" priority="54" />
+      <Item value="Format" priority="0" />
+      <Item value="Enabled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="Date" priority="52" />
+      <Item value="Year" priority="6" />
+      <Item value="ToString`0" priority="11" />
+      <Item value="Month" priority="1" />
+      <Item value="Day" priority="1" />
+      <Item value="DayOfYear" priority="20" />
+      <Item value="DayOfWeek" priority="0" />
+      <Item value="AddDays`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="6" />
+      <Item value="TryParse`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Char">
+      <Item value="ToString`0" priority="4" />
+      <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="Value" priority="20" />
+      <Item value="ToString`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.formularios.PV_EntradaProductos">
+      <Item value="_user" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewCellEventArgs">
+      <Item value="RowIndex" priority="7" />
+      <Item value="ColumnIndex" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridView">
+      <Item value="Refresh`0" priority="0" />
+      <Item value="ClearSelection`0" priority="0" />
+      <Item value="Rows" priority="23" />
+      <Item value="DisplayedRowCount`0" priority="0" />
+      <Item value="RowCount" priority="1" />
+      <Item value="ColumnAdded" priority="0" />
+      <Item value="Columns" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewRowCollection">
+      <Item value="Clear`0" priority="3" />
+      <Item value="Add`0" priority="0" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewRow">
+      <Item value="Cells" priority="10" />
+      <Item value="ErrorText" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewCell">
+      <Item value="Value" priority="12" />
+      <Item value="Tag" priority="0" />
+      <Item value="GetContentBounds`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.formularios.PVListadoProductos">
+      <Item value="_user" priority="0" />
+      <Item value="Reload`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="4" />
+      <Item value="Equals`0" priority="1" />
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Decimal">
+      <Item value="Parse`0" priority="2" />
+      <Item value="TryParse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewColumn">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.formularios.PVSalidaProductos">
+      <Item value="_user" priority="2" />
+      <Item value="_idPuntoVenta" priority="0" />
+      <Item value="Reload`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Round`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Decimal">
+      <Item value="ToString`0" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Form">
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TabControl">
+      <Item value="CreateControl`0" priority="0" />
+      <Item value="Tag" priority="0" />
+      <Item value="Controls" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control+ControlCollection">
+      <Item value="Add`0" priority="1" />
+      <Item value="Clear`0" priority="0" />
+      <Item value="Count" priority="1" />
+      <Item value="RemoveAt`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TabPage">
+      <Item value="Controls" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListView+ColumnHeaderCollection">
+      <Item value="Add`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.formularios.ReporteBitacora">
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.bitacora">
+      <Item value="usuarios" priority="1" />
+      <Item value="descripcion" priority="1" />
+      <Item value="fecha" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.formularios.IngresarGastos">
+      <Item value="_user" priority="0" />
+      <Item value="Close`0" priority="0" />
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.gastos">
+      <Item value="fecha" priority="5" />
+      <Item value="descripcion" priority="0" />
+      <Item value="valor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.formularios.ChequearGastos">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="Reload`0" priority="0" />
+      <Item value="printableListView1" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.formularios.InventarioXDIa">
+      <Item value="printableListView1" priority="4" />
+      <Item value="comboBox1" priority="3" />
+      <Item value="components" priority="0" />
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="Reload`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.formularios.VentaPorDias">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="Reload`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Label">
+      <Item value="Text" priority="9" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.formularios.Utilidad">
+      <Item value="Show`0" priority="0" />
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="Reload`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Linq.Enumerable">
+      <Item value="Sum`1" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.formularios.ProductosMasVendidos">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="printableListView1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control">
+      <Item value="Tag" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewComboBoxColumn">
+      <Item value="Items" priority="4" />
+      <Item value="DefaultCellStyle" priority="0" />
+      <Item value="Selected" priority="0" />
+      <Item value="ValueType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewComboBoxCell+ObjectCollection">
+      <Item value="Add`0" priority="2" />
+      <Item value="Clear`0" priority="0" />
+      <Item value="IndexOf`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.formularios.EliminarProductos">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="Close`0" priority="0" />
+      <Item value="Reload`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.formularios.MateriasPrimas">
+      <Item value="Limpiar`0" priority="1" />
+      <Item value="Close`0" priority="0" />
+      <Item value="Show`0" priority="0" />
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="Reload`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewCellStyle">
+      <Item value="NullValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.formularios.AsignarMPaTejedora">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="Reload`0" priority="1" />
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.materia_prima">
+      <Item value="cantidad" priority="13" />
+      <Item value="descripcion" priority="8" />
+      <Item value="id" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.mp_tejedora">
+      <Item value="id_mp" priority="0" />
+      <Item value="fehca" priority="2" />
+      <Item value="materia_prima" priority="0" />
+      <Item value="cantidad" priority="0" />
+      <Item value="usuarios" priority="0" />
+      <Item value="tejedora" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Maya.formularios.ChequearAsignaciones">
+      <Item value="Reload`0" priority="1" />
+      <Item value="printableListView1" priority="0" />
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

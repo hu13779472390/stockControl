@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="mayaModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="mayaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="bitacora" EntityType="mayaModel.bitacora" />
+    <EntitySet Name="gastos" EntityType="mayaModel.gastos" />
+    <EntitySet Name="materia_prima" EntityType="mayaModel.materia_prima" />
+    <EntitySet Name="mp_tejedora" EntityType="mayaModel.mp_tejedora" />
+    <EntitySet Name="productos" EntityType="mayaModel.productos" />
+    <EntitySet Name="punto_venta" EntityType="mayaModel.punto_venta" />
+    <EntitySet Name="rol" EntityType="mayaModel.rol" />
+    <EntitySet Name="tejedora" EntityType="mayaModel.tejedora" />
+    <EntitySet Name="tipo_producto" EntityType="mayaModel.tipo_producto" />
+    <EntitySet Name="usuarios" EntityType="mayaModel.usuarios" />
+    <AssociationSet Name="bitacora_fk" Association="mayaModel.bitacora_fk">
+      <End Role="usuarios" EntitySet="usuarios" />
+      <End Role="bitacora" EntitySet="bitacora" />
+    </AssociationSet>
+    <AssociationSet Name="mp_tejedora_fk" Association="mayaModel.mp_tejedora_fk">
+      <End Role="materia_prima" EntitySet="materia_prima" />
+      <End Role="mp_tejedora" EntitySet="mp_tejedora" />
+    </AssociationSet>
+    <AssociationSet Name="mp_tejedora_fk2" Association="mayaModel.mp_tejedora_fk2">
+      <End Role="tejedora" EntitySet="tejedora" />
+      <End Role="mp_tejedora" EntitySet="mp_tejedora" />
+    </AssociationSet>
+    <AssociationSet Name="mp_tejedora_fk3" Association="mayaModel.mp_tejedora_fk3">
+      <End Role="usuarios" EntitySet="usuarios" />
+      <End Role="mp_tejedora" EntitySet="mp_tejedora" />
+    </AssociationSet>
+    <AssociationSet Name="productos_fk" Association="mayaModel.productos_fk">
+      <End Role="punto_venta" EntitySet="punto_venta" />
+      <End Role="productos" EntitySet="productos" />
+    </AssociationSet>
+    <AssociationSet Name="productos_fk2" Association="mayaModel.productos_fk2">
+      <End Role="tipo_producto" EntitySet="tipo_producto" />
+      <End Role="productos" EntitySet="productos" />
+    </AssociationSet>
+    <AssociationSet Name="productos_fk3" Association="mayaModel.productos_fk3">
+      <End Role="tejedora" EntitySet="tejedora" />
+      <End Role="productos" EntitySet="productos" />
+    </AssociationSet>
+    <AssociationSet Name="usuarios_fk" Association="mayaModel.usuarios_fk">
+      <End Role="rol" EntitySet="rol" />
+      <End Role="usuarios" EntitySet="usuarios" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="bitacora">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="fecha" Type="DateTime" />
+    <Property Name="descripcion" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="id_usuario" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="usuarios" Relationship="mayaModel.bitacora_fk" FromRole="bitacora" ToRole="usuarios" />
+  </EntityType>
+  <EntityType Name="gastos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="fecha" Type="DateTime" Nullable="false" />
+    <Property Name="descripcion" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="valor" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+  </EntityType>
+  <EntityType Name="materia_prima">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cantidad" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="descripcion" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="mp_tejedora" Relationship="mayaModel.mp_tejedora_fk" FromRole="materia_prima" ToRole="mp_tejedora" />
+  </EntityType>
+  <EntityType Name="mp_tejedora">
+    <Key>
+      <PropertyRef Name="id_mp" />
+      <PropertyRef Name="id_tejedora" />
+    </Key>
+    <Property Name="id_mp" Type="Int32" Nullable="false" />
+    <Property Name="id_tejedora" Type="Int32" Nullable="false" />
+    <Property Name="cantidad" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="fehca" Type="DateTime" Nullable="false" />
+    <Property Name="id_usuario" Type="Int32" />
+    <NavigationProperty Name="materia_prima" Relationship="mayaModel.mp_tejedora_fk" FromRole="mp_tejedora" ToRole="materia_prima" />
+    <NavigationProperty Name="tejedora" Relationship="mayaModel.mp_tejedora_fk2" FromRole="mp_tejedora" ToRole="tejedora" />
+    <NavigationProperty Name="usuarios" Relationship="mayaModel.mp_tejedora_fk3" FromRole="mp_tejedora" ToRole="usuarios" />
+  </EntityType>
+  <EntityType Name="productos">
+    <Key>
+      <PropertyRef Name="id_tipo_producto" />
+      <PropertyRef Name="anno" />
+      <PropertyRef Name="id_tejedora" />
+      <PropertyRef Name="numero_producto" />
+    </Key>
+    <Property Name="id" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="id_tipo_producto" Type="Int32" Nullable="false" />
+    <Property Name="anno" Type="Int32" Nullable="false" />
+    <Property Name="id_tejedora" Type="Int32" Nullable="false" />
+    <Property Name="numero_producto" Type="Int32" Nullable="false" />
+    <Property Name="descripcion" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="valor" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="precio" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="fecha_entrada" Type="DateTime" Nullable="false" />
+    <Property Name="fecha_salida" Type="DateTime" />
+    <Property Name="fecha_devolucion" Type="DateTime" />
+    <Property Name="fecha_venta" Type="DateTime" />
+    <Property Name="id_punto_venta" Type="Int32" />
+    <Property Name="vendido" Type="Int32" />
+    <Property Name="tejedora_anterior" Type="String" MaxLength="25" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="punto_venta" Relationship="mayaModel.productos_fk" FromRole="productos" ToRole="punto_venta" />
+    <NavigationProperty Name="tipo_producto" Relationship="mayaModel.productos_fk2" FromRole="productos" ToRole="tipo_producto" />
+    <NavigationProperty Name="tejedora" Relationship="mayaModel.productos_fk3" FromRole="productos" ToRole="tejedora" />
+  </EntityType>
+  <EntityType Name="punto_venta">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="valor" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="productos" Relationship="mayaModel.productos_fk" FromRole="punto_venta" ToRole="productos" />
+  </EntityType>
+  <EntityType Name="rol">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="valor" Type="String" Nullable="false" MaxLength="25" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="usuarios" Relationship="mayaModel.usuarios_fk" FromRole="rol" ToRole="usuarios" />
+  </EntityType>
+  <EntityType Name="tejedora">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="25" Unicode="false" FixedLength="false" />
+    <Property Name="apellidos" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="mp_tejedora" Relationship="mayaModel.mp_tejedora_fk2" FromRole="tejedora" ToRole="mp_tejedora" />
+    <NavigationProperty Name="productos" Relationship="mayaModel.productos_fk3" FromRole="tejedora" ToRole="productos" />
+  </EntityType>
+  <EntityType Name="tipo_producto">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="valor" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="productos" Relationship="mayaModel.productos_fk2" FromRole="tipo_producto" ToRole="productos" />
+  </EntityType>
+  <EntityType Name="usuarios">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="apellidos" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="usuario" Type="String" Nullable="false" MaxLength="12" Unicode="false" FixedLength="false" />
+    <Property Name="pass" Type="String" Nullable="false" MaxLength="12" Unicode="false" FixedLength="false" />
+    <Property Name="id_rol" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="bitacora" Relationship="mayaModel.bitacora_fk" FromRole="usuarios" ToRole="bitacora" />
+    <NavigationProperty Name="mp_tejedora" Relationship="mayaModel.mp_tejedora_fk3" FromRole="usuarios" ToRole="mp_tejedora" />
+    <NavigationProperty Name="rol" Relationship="mayaModel.usuarios_fk" FromRole="usuarios" ToRole="rol" />
+  </EntityType>
+  <Association Name="bitacora_fk">
+    <End Role="usuarios" Type="mayaModel.usuarios" Multiplicity="1" />
+    <End Role="bitacora" Type="mayaModel.bitacora" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuarios">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="bitacora">
+        <PropertyRef Name="id_usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="mp_tejedora_fk">
+    <End Role="materia_prima" Type="mayaModel.materia_prima" Multiplicity="1" />
+    <End Role="mp_tejedora" Type="mayaModel.mp_tejedora" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="materia_prima">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="mp_tejedora">
+        <PropertyRef Name="id_mp" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="mp_tejedora_fk2">
+    <End Role="tejedora" Type="mayaModel.tejedora" Multiplicity="1" />
+    <End Role="mp_tejedora" Type="mayaModel.mp_tejedora" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tejedora">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="mp_tejedora">
+        <PropertyRef Name="id_tejedora" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="mp_tejedora_fk3">
+    <End Role="usuarios" Type="mayaModel.usuarios" Multiplicity="0..1" />
+    <End Role="mp_tejedora" Type="mayaModel.mp_tejedora" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuarios">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="mp_tejedora">
+        <PropertyRef Name="id_usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="productos_fk">
+    <End Role="punto_venta" Type="mayaModel.punto_venta" Multiplicity="0..1" />
+    <End Role="productos" Type="mayaModel.productos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="punto_venta">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="productos">
+        <PropertyRef Name="id_punto_venta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="productos_fk2">
+    <End Role="tipo_producto" Type="mayaModel.tipo_producto" Multiplicity="1" />
+    <End Role="productos" Type="mayaModel.productos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tipo_producto">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="productos">
+        <PropertyRef Name="id_tipo_producto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="productos_fk3">
+    <End Role="tejedora" Type="mayaModel.tejedora" Multiplicity="1" />
+    <End Role="productos" Type="mayaModel.productos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tejedora">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="productos">
+        <PropertyRef Name="id_tejedora" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="usuarios_fk">
+    <End Role="rol" Type="mayaModel.rol" Multiplicity="1" />
+    <End Role="usuarios" Type="mayaModel.usuarios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="rol">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="usuarios">
+        <PropertyRef Name="id_rol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

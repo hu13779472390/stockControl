@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C518AF9F-B5E4-4CCD-9E09-BC1904E11560}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Maya</RootNamespace>
+    <AssemblyName>Maya</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PrintableListView">
+      <HintPath>..\..\..\Proyecto Papiro\Printable ListView\TestSolution\PrintableListView\bin\Release\PrintableListView.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\AsignarMPaTejedora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\AsignarMPaTejedora.Designer.cs">
+      <DependentUpon>AsignarMPaTejedora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\ChequearAsignaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\ChequearAsignaciones.Designer.cs">
+      <DependentUpon>ChequearAsignaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\ChequearGastos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\ChequearGastos.Designer.cs">
+      <DependentUpon>ChequearGastos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\EliminarProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\EliminarProductos.Designer.cs">
+      <DependentUpon>EliminarProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\EntradaProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\EntradaProductos.Designer.cs">
+      <DependentUpon>EntradaProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\FormularioPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\FormularioPrincipal.Designer.cs">
+      <DependentUpon>FormularioPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\GestionarPuntoVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\GestionarPuntoVenta.Designer.cs">
+      <DependentUpon>GestionarPuntoVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\GestionarTejedoras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\GestionarTejedoras.Designer.cs">
+      <DependentUpon>GestionarTejedoras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\GestionarTiposProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\GestionarTiposProductos.Designer.cs">
+      <DependentUpon>GestionarTiposProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\GestionarUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\GestionarUsuarios.Designer.cs">
+      <DependentUpon>GestionarUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\IngresarGastos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\IngresarGastos.Designer.cs">
+      <DependentUpon>IngresarGastos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\InventarioXDIa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\InventarioXDIa.Designer.cs">
+      <DependentUpon>InventarioXDIa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\ListadoProductosInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\ListadoProductosInventario.Designer.cs">
+      <DependentUpon>ListadoProductosInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\MateriasPrimas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\MateriasPrimas.Designer.cs">
+      <DependentUpon>MateriasPrimas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\ProductosMasVendidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\ProductosMasVendidos.Designer.cs">
+      <DependentUpon>ProductosMasVendidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\PVListadoProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\PVListadoProductos.Designer.cs">
+      <DependentUpon>PVListadoProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\PVSalidaProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\PVSalidaProductos.Designer.cs">
+      <DependentUpon>PVSalidaProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\PV_EntradaProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\PV_EntradaProductos.Designer.cs">
+      <DependentUpon>PV_EntradaProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\ReporteBitacora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\ReporteBitacora.Designer.cs">
+      <DependentUpon>ReporteBitacora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\Utilidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\Utilidad.Designer.cs">
+      <DependentUpon>Utilidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\VentaPorDias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\VentaPorDias.Designer.cs">
+      <DependentUpon>VentaPorDias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\AsignarMPaTejedora.resx">
+      <DependentUpon>AsignarMPaTejedora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\ChequearAsignaciones.resx">
+      <DependentUpon>ChequearAsignaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\ChequearGastos.resx">
+      <DependentUpon>ChequearGastos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\EliminarProductos.resx">
+      <DependentUpon>EliminarProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\EntradaProductos.resx">
+      <DependentUpon>EntradaProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\FormularioPrincipal.resx">
+      <DependentUpon>FormularioPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\GestionarPuntoVenta.resx">
+      <DependentUpon>GestionarPuntoVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\GestionarTejedoras.resx">
+      <DependentUpon>GestionarTejedoras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\GestionarTiposProductos.resx">
+      <DependentUpon>GestionarTiposProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\GestionarUsuarios.resx">
+      <DependentUpon>GestionarUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\IngresarGastos.resx">
+      <DependentUpon>IngresarGastos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\InventarioXDIa.resx">
+      <DependentUpon>InventarioXDIa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\MateriasPrimas.resx">
+      <DependentUpon>MateriasPrimas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\ProductosMasVendidos.resx">
+      <DependentUpon>ProductosMasVendidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\PVListadoProductos.resx">
+      <DependentUpon>PVListadoProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\PVSalidaProductos.resx">
+      <DependentUpon>PVSalidaProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\ReporteBitacora.resx">
+      <DependentUpon>ReporteBitacora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\Utilidad.resx">
+      <DependentUpon>Utilidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\VentaPorDias.resx">
+      <DependentUpon>VentaPorDias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EntityDeploy Include="Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="App.Config" />
+    <None Include="Properties\DataSources\mayaEntities.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
